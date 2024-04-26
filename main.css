@@ -1,0 +1,32 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 576px;
+    }
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    min-height: 200px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
